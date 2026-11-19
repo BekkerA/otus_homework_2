@@ -1,4 +1,9 @@
 {
-  "contacts": {},
-  "max_id": 1
+  "contacts": {
+    "2": {
+      "name": "Lise",
+      "phone": "5645"
+    }
+  },
+  "max_id": 2
 }

@@ -1,5 +1,5 @@
 from dataclasses import dataclass
-from otus_homework_2.exceptions import InvalidPhoneError, InvalidNameError
+from exceptions import InvalidPhoneError, InvalidNameError
 import re
 
 

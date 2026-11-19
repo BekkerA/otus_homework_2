@@ -32,7 +32,6 @@ class PhoneBookController:
             except PhoneBookError as exc:
                 self.view.show_error(str(exc))
 
-    # --- операции ---
     def _show_all(self) -> None:
         self.view.show_contacts(self.model.all_contacts())
 
@@ -100,7 +99,6 @@ class PhoneBookController:
         else:
             self.view.show_message("Удаление отменено.")
 
-    # --- вспомогательные ---
     def _read_phone(self) -> str | None:
         while True:
             phone = self.view.ask_phone()
