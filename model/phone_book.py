@@ -73,3 +73,7 @@ class PhoneBook:
             ):
                 result.append(contact)
         return result
+
+    @staticmethod
+    def constructor_validate_phone(phone: str) -> str:
+        return Contact.validate_phone(phone)
