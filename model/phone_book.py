@@ -33,7 +33,6 @@ class PhoneBook:
         }
         self._storage.save(data)
 
-    # --- CRUD ---
     def all_contacts(self) -> list[Contact]:
         return list(self._contacts.values())
 
